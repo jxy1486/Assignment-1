@@ -7,15 +7,23 @@
     <meta name="description" content="An informational webpage about Japanese food, culture, and places to travel and explore.">
     <meta name="keywords" content="Japan, Travel, Japanese, Vacation, Explore, Tokyo">
     <title>Traveling to Japan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="profile.css"> 
 </head>
 <body>
+<div class="wrapper">
     <header>
         <p id="top"></p>
         <h1>Traveling to Japan</h1>  
-        <p>Japan is an amazing destination, but understanding its culture and knowing the best places to visit will help you make the most of your trip.</p>
+        <p class="intro">Japan is an amazing destination, but understanding its culture and knowing the best places to visit will help you make the most of your trip.</p>
     </header>
-    <nav>
-        <a href="#gallery">Gallery</a>
+    <nav class="topnav">
+        <ul>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#bottom">Bottom of Page</a></li>
+        </ul>
     </nav>
     <hr>
 <main>
@@ -54,19 +62,19 @@
         </ul>
     </article>
     <!--Section 5-->
-    <section>
-        <p id="gallery"></p>
-    <h3>Gallery</h3>
-    <img src="Images/Kyoto.jpeg" alt="Kyoto">
-    <img src="Images/MountFuji.jpeg" alt="Mount Fuji">
-    <img src="Images/Restaurant.jpeg" alt="Restaurant in Tokyo">
-    </section>
+    <h3 id="gallery">Gallery</h3>
+    <div class="gallery">
+        <img src="Images/Kyoto.jpeg" alt="Kyoto">
+        <img src="Images/MountFuji.jpeg" alt="Mount Fuji">
+        <img src="Images/Restaurant.jpeg" alt="Restaurant in Tokyo">
+    </div>
 </main>
     <hr>
     <!--Footer Section-->
-    <footer>
+    <footer id="bottom">
         Japan is a country rich in cultural heritage, offering modern attractions and traditional experiences. From the serene temples of Kyoto to the vibrant streets of Tokyo, travelers can immerse themselves in diverse landscapes, delicious cuisine, and unique customs.
     </footer>
     <a href="#top">Top of Page</a>
+</div>
 </body>
 </html>
